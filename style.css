@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Outline&family=Libre+Franklin:wght@100;500&family=Noto+Sans+Tangsa&display=swap');
+
+body {
+  color: 6C3428;
+  font-family: "Noto Sans Tangsa";
+  font-size: 15px;
+  background-color: EAC696;
+  text-align: center;
+}
+
+h1 {
+  color: A64B2A;
+  font-family: "Bungee Outline";
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-family: "Noto Sans Tangsa";
+  color: 6C3428;;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 5px;
+}
+
+p {
+  margin-block-start: 3em;
+}
+
+a {
+  color: CA955C;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: A64B2A;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.github {
+  color: A64B2A;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border-radius: 1%;
+  padding: 25px;
+}
+
+#banner {
+  background-color: FCF8E8;
+  width: 150px;
+  padding: 10px;
+  margin: 5px auto;
+  margin-block-start: 2em;
+  border-radius: 2%;
+}
+
+.github:hover {
+  transition: 0.4s;
+  color: 65451F;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: FCF8E8;
+  padding: 25px;
+  width: 550px;
+  margin: 45px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 1%;
+  border: 1px;
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+}
