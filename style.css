@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Outline&family=Libre+Franklin:wght@100;500&family=Noto+Sans+Tangsa&display=swap');
+
 body {
   color: 6C3428;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  background-color: FCF8E8;
+  font-family: "Noto Sans Tangsa";
+  font-size: 15px;
+  background-color: EAC696;
   text-align: center;
 }
 
 h1 {
   color: A64B2A;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-family: "Bungee Outline";
+  font-size: 40px;
   letter-spacing: 5px;
 }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: A64B2A;
-  font-size: 30px;
+  font-family: "Noto Sans Tangsa";
+  color: 6C3428;;
+  font-size: 15px;
   line-height: 1.6;
+  padding: 5px;
 }
 
 p {
@@ -39,20 +42,19 @@ a:hover {
 
 .github {
   color: A64B2A;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   border-radius: 1%;
   padding: 25px;
 }
 
 #banner {
-  background-color: DFA878;
+  background-color: FCF8E8;
   width: 150px;
-  height: 19px;
   padding: 10px;
   margin: 5px auto;
   margin-block-start: 2em;
-  border-radius: 3%;
+  border-radius: 2%;
 }
 
 .github:hover {
@@ -69,9 +71,9 @@ a:hover {
 }
 
 .card {
-  background: white;
+  background-color: FCF8E8;
   padding: 25px;
-  width: 600px;
+  width: 550px;
   margin: 45px auto;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   border-radius: 1%;
@@ -85,22 +87,4 @@ a:hover {
 
 .list-inline {
   list-style: none;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
 }
